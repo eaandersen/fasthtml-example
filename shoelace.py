@@ -67,4 +67,5 @@ def get(): return metric_card('Revenue', '$12,345', '+2.4% from last month')
 @rt('/proj')
 def get(): return metric_card('Active Projects', '42', '3 new this week')
 
-serve()
+serve(host="127.0.0.1", port=5000)
+

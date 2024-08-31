@@ -29,5 +29,5 @@ def get():
     wrapper = Wrapper("Gallery", sub, Gallery(items), style=1)
     return PageWrapper("Gallery Demo", wrapper, footer())
 
-serve()
+serve(host="127.0.0.1", port=5000)
 

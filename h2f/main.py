@@ -15,5 +15,6 @@ def get():
             Textarea(placeholder='Paste HTML here', id="html", rows=10)),
         Div(id="ft"))
 
-serve()
+serve(host="127.0.0.1", port=5000)
+
 

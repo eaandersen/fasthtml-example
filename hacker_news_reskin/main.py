@@ -150,4 +150,4 @@ async def start_update_task():
     asyncio.create_task(update_summaries())
 
 
-serve()
+serve(host="127.0.0.1", port=5000)
